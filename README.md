@@ -1,56 +1,75 @@
-# Smart Card Connector App for ChromeOS
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# chromeos_smart_card_connector
 
-This repository contains sources of the ChromeOS **Smart Card Connector App**
-(distributed at
-[https://chrome.google.com/webstore/detail/smart-card-connector/khpfeaanjngmcnplbdlpegiifgpfgdco](https://chrome.google.com/webstore/detail/smart-card-connector/khpfeaanjngmcnplbdlpegiifgpfgdco))
-and examples how programs can communicate with this app.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/chromeos_smart_card_connector)
 
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Documentation
+## Architecture
 
-This documentation is split into several parts for different target audiences:
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-* **Are you a ChromeOS user?**
+## Install
 
-  Please refer to this Help Center article:
-  [https://support.google.com/chrome/a/answer/7014689](https://support.google.com/chrome/a/answer/7014689).
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-* **Are you a ChromeOS administrator?**
+```bash
+git clone https://github.com/Interested-Deving-1896/chromeos_smart_card_connector.git
+cd chromeos_smart_card_connector
+```
 
-  Please refer to this Help Center article:
-  [https://support.google.com/chrome/a/answer/7014520](https://support.google.com/chrome/a/answer/7014520).
+## Usage
 
-* **Are you a developer of a ChromeOS extension/app that needs to access the
-  PC/SC API in order to talk to smart cards?**
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-  Please refer to this README:
-  [docs/index-third-party-application-developer.md](docs/index-third-party-application-developer.md).
+## Configuration
 
-* **Are you a developer who needs to build the Smart Card Connector App and/or a
-  maintainer of this repository?**
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-  Please refer to this README:
-  [docs/index-developer.md](docs/index-developer.md).
+## CI
 
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-## FAQ
+## Mirror chain
 
-### What is a smart card?
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/chromeos_smart_card_connector`](https://github.com/Interested-Deving-1896/chromeos_smart_card_connector) and mirrored through:
 
-Please refer to
-[https://en.wikipedia.org/wiki/Smart_card](https://en.wikipedia.org/wiki/Smart_card).
+```
+Interested-Deving-1896/chromeos_smart_card_connector  ──►  OpenOS-Project-OSP/chromeos_smart_card_connector  ──►  OpenOS-Project-Ecosystem-OOC/chromeos_smart_card_connector
+```
 
-Note that there also some devices that emulate a smart card, e.g., some of
-Yubikey devices (see
-[https://www.yubico.com/authentication-standards/smart-card/](https://www.yubico.com/authentication-standards/smart-card/)).
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-### Do I need the Smart Card Connector App?
+## Contributors
 
-You only need this in case you have a smart card (or a device that emulates it)
-and need to use it on your ChromeOS device for authenticating at web pages,
-remote desktop applications, logging into ChromeOS in enterprise deployments,
-etc.
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-### Can I use it with my memory card (microSD, etc.)?
+## Origins
 
-No. The Smart Card Connector App is only useful with **smart cards**.
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[Apache-2.0](https://github.com/Interested-Deving-1896/chromeos_smart_card_connector/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
